@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>변수와 연산자</title>
+</head>
+<body>
+<b>변수와 연산자</b>
+	<%!
+	//선언문
+		int su1 = 10;
+		int su2 = 1;
+	%>
+	
+	<%
+	//스크립트릿 (scriptlet)
+		int result = 0;
+		int temp = 0;
+	%>
+</body>
+</html>
